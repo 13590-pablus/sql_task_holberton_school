@@ -3,7 +3,7 @@ CREATE TABLE readers (
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    region VARCHAR(255) NOT NULL,
+    city VARCHAR(255) NOT NULL,
     CONSTRAINT pk_readers PRIMARY KEY (id)
 );
 
